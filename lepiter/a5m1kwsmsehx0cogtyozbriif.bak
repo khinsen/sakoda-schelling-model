@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-03T16:52:51.957684+01:00"
+									"dateAndTimeString" : "2024-01-03T16:45:56.992673+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Uses:\n- {{lzUseContext:name = \"Term equality\"}}\n- {{lzUseContext:name = \"Boolean algebra\"}}\n- {{lzUseContext:name=\"Rational numbers\"}}\n- {{lzUseContext:name=\"One-dimensional arrays\"}} {{lzUseContext:name = \"Array size\"}}\n- {{lzUseContext:name = \"Function application to one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Reduction over one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Function-based selection from one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Two-dimensional array indexation\"}}"
+							"string" : "Uses:\n- {{lzUseContext:name = \"Term equality\"}}\n- {{lzUseContext:name = \"Boolean algebra\"}}\n- {{lzUseContext:name=\"Rational numbers\"}}\n- {{lzUseContext:name=\"One-dimensional arrays\"}} {{lzUseContext:name = \"Array size\"}}\n- {{lzUseContext:name = \"Function application to one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Reduction over one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Function-based selection from one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Two-dimensional array indexation\"}"
 						}
 					]
 				},

@@ -1,0 +1,187 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-04-17T10:33:04.453321+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-04-17T10:50:47.126463+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vzHJxuW1DQCJ30lwCN5FHQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Uses {{lzUseContext:name = \"Arrays\"}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-10T18:48:03.017876+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-12-27T16:27:01.529416+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eGcqbnydDQCT20BfB7PoQQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Array literals are written in curly plus square brackets. Examples:\n\t{{lzTerm:{[]}}} (an empty array)\n\t{{lzTerm:{[1, 2, 3]}, subcontext = \"integerArray\"}} (array of integers, uses {{lzUseContext:name = \"Integers\", subcontext = \"integerArray\"}})\n\t{{lzTerm:{[\"a\", \"b\"]}, subcontext = \"stringArray\"}} (array of strings, uses {{lzUseContext:name = \"Character strings\", subcontext = \"stringArray\"}})"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-10T18:50:39.031679+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-04-17T10:45:10.520987+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "D6ZndnydDQCT3iPJB7PoQQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The generic sort of a one-dimensional array containing elements of sort {{lzSort:𝕊, example = \"yes\"}} is {{lzSort:Array1D(𝕊)}}, with {{lzSort:s_:𝕊, Array1D(s_) ⊆ Array}}. The sort of an array of known length is {{lzSort:Array(𝕊, ℕ.nz)}}, with {{lzSort:s_:𝕊, i1_:ℕ.nz, Array(s_, i1_) ⊆ Array1D(s_)}}."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-10T18:58:50.316372+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-04-17T10:36:38.793297+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9jXZlnydDQCVp7B2BgBKoA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "An empty one-dimensional array has sort {{lzSort:EmptyArray1D}}, with {{lzSort:EmptyArray1D ⊆ Array}}. An empty array cannot have a regular array sort, because regular array sorts depend on the type of the array elements. An empty array has no elements. For consistency with higher-dimensional arrays, there is also the sort {{lzSort:EmptyArray(zero)}}, with {{lzSort:i1_:zero, EmptyArray(i1_) ⊆ EmptyArray1D}}. Its argument is always zero, but higher-dimensional arrays can have non-zero lengths along all but one dimensions."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-10T18:47:26.935676+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-10T18:47:26.935676+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "One-dimensional arrays"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ba29296e-7c9d-0d00-93da-867007b3e841"
+	}
+}
