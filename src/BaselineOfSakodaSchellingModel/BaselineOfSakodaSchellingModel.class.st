@@ -23,6 +23,16 @@ BaselineOfSakodaSchellingModel class >> loadLepiter [
 BaselineOfSakodaSchellingModel >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
-			spec package: 'SakodaSchellingModel'
+			spec
+				baseline: 'LeibnizForGToolkit' 
+				with: [ spec repository: 'github://khinsen/leibniz-pharo:master' ].
+			spec
+				package: 'SakodaSchellingModel'
+				with: [ spec requires: #(LeibnizForGToolkit) ]
 		]
+]
+
+{ #category : #loading }
+BaselineOfSakodaSchellingModel >> postload: loader package: packageSpec [
+	self class loadLepiter
 ]
