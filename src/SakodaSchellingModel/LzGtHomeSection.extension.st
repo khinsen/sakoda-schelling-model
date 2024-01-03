@@ -14,8 +14,7 @@ LzGtHomeSection >> sakodaSchellingModelCard [
 				padding: (BlInsets all: 20)) asScalableElement
 		action: [ :card | 
 			| database startPage |
-			database :=  LeDatabasesRegistry defaultLogicalDatabase
-							databaseNamed: 'Sakoda-Schelling model'.
+			database :=  BaselineOfSakodaSchellingModel lepiterDatabase.
 			startPage := database
 							pageNamed: 'The Sakoda-Schelling model for racial segregation'.
 			GtWorldUtility 
