@@ -45,43 +45,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "*Historical note:* A very similar model was published one month earlier by James Sakoda ([\"The checkerboard model of social interaction\"](https://doi.org/10.1080/0022250X.1971.9989791)), who had already worked on (but not published) similar agent-based models for more than 20 years. Sakoda's model was computationally more sophisticated (implemented in Fortran, with several parameters to adapt to different situations), and also more general. Historian Rainer Hegselmann (see [\"Thomas C. Schelling and James M. Sakoda: The Intellectual, Technical, and Social History of a Model\"](https://doi.org/10.18564/jasss.3511)) comes to the conclusion that it was in fact too sophisticated for its time, when few social scientists had programming competence or access to computers, and therefore it was quickly forgotten. Schelling's simpler coin-on-paper model caught on and became famous."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-03T16:42:59.02449+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-03T16:52:51.957684+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "W/7XNG7KDQC9s9IXCN9TGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Uses:\n- {{lzUseContext:name = \"Term equality\"}}\n- {{lzUseContext:name = \"Boolean algebra\"}}\n- {{lzUseContext:name=\"Rational numbers\"}}\n- {{lzUseContext:name=\"One-dimensional arrays\"}} {{lzUseContext:name = \"Array size\"}}\n- {{lzUseContext:name = \"Function application to one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Reduction over one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Function-based selection from one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Two-dimensional array indexation\"}}"
 						}
 					]
 				},
@@ -115,6 +78,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "In 1971, Thomas Schelling published a paper entitled [\"Dynamic models of segregation\"](https://doi.org/10.1080/0022250X.1971.9989794) He explored one specific mechanism of racial segregation, by simulating what is often considered to be the first [agent-based model](https://en.wikipedia.org/wiki/Agent-based_model). He performed his simulations manually, using coins he moved around on a piece of paper, and made no effort to define unambiguous rules for them. What follows is one possible formalization of his model."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-03T16:42:59.02449+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-03T16:52:51.957684+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "W/7XNG7KDQC9s9IXCN9TGA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Uses:\n- {{lzUseContext:name = \"Term equality\"}}\n- {{lzUseContext:name = \"Boolean algebra\"}}\n- {{lzUseContext:name=\"Rational numbers\"}}\n- {{lzUseContext:name=\"One-dimensional arrays\"}} {{lzUseContext:name = \"Array size\"}}\n- {{lzUseContext:name = \"Function application to one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Reduction over one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Function-based selection from one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Two-dimensional array indexation\"}}"
 			},
 			{
 				"__type" : "textSnippet",
