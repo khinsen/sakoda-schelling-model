@@ -45,43 +45,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "*Historical note:* A very similar model was published one month earlier by James Sakoda ([\"The checkerboard model of social interaction\"](https://doi.org/10.1080/0022250X.1971.9989791)), who had already worked on (but not published) similar agent-based models for more than 20 years. Sakoda's model was computationally more sophisticated (implemented in Fortran, with several parameters to adapt to different situations), and also more general. Historian Rainer Hegselmann (see [\"Thomas C. Schelling and James M. Sakoda: The Intellectual, Technical, and Social History of a Model\"](https://doi.org/10.18564/jasss.3511)) comes to the conclusion that it was in fact too sophisticated for its time, when few social scientists had programming competence or access to computers, and therefore it was quickly forgotten. Schelling's simpler coin-on-paper model caught on and became famous."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-03T16:42:59.02449+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-03T16:52:51.957684+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "W/7XNG7KDQC9s9IXCN9TGA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Uses:\n- {{lzUseContext:name = \"Term equality\"}}\n- {{lzUseContext:name = \"Boolean algebra\"}}\n- {{lzUseContext:name=\"Rational numbers\"}}\n- {{lzUseContext:name=\"One-dimensional arrays\"}} {{lzUseContext:name = \"Array size\"}}\n- {{lzUseContext:name = \"Function application to one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Reduction over one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Function-based selection from one-dimensional arrays\"}}\n- {{lzUseContext:name = \"Two-dimensional array indexation\"}}"
 						}
 					]
 				},
@@ -104,7 +67,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-03T16:42:03.893706+01:00"
+						"dateAndTimeString" : "2024-01-11T16:18:02.1506+01:00"
 					}
 				},
 				"uid" : {
@@ -114,7 +77,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In 1971, Thomas Schelling published a paper entitled [\"Dynamic models of segregation\"](https://doi.org/10.1080/0022250X.1971.9989794) He explored one specific mechanism of racial segregation, by simulating what is often considered to be the first [agent-based model](https://en.wikipedia.org/wiki/Agent-based_model). He performed his simulations manually, using coins he moved around on a piece of paper, and made no effort to define unambiguous rules for them. What follows is one possible formalization of his model."
+				"string" : "In 1971, Thomas Schelling published a paper entitled [\"Dynamic models of segregation\"](https://doi.org/10.1080/0022250X.1971.9989794) He explored one specific mechanism of racial segregation, by simulating what is often considered to be the first [agent-based model](https://en.wikipedia.org/wiki/Agent-based_model). He performed his simulations manually, using coins he moved around on a piece of paper, and made no effort to define unambiguous rules for them."
 			},
 			{
 				"__type" : "textSnippet",
@@ -141,7 +104,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-03T12:57:53.733061+01:00"
+						"dateAndTimeString" : "2024-01-11T16:19:18.779942+01:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +114,81 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "There are many software implementations of the Sakoda-Schelling model today. Because Schelling did not aim for unambiguous rules, they all behave somewhat differently. Those differences are mostly undocumented, except by the source code of the software."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-11T16:19:43.194364+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-11T16:21:51.768652+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Pz8azw7LDQCru0nGAejbbQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You can play with such a traditional implementation on the page [[A Pharo implementation of the Sakoda-Schelling model]]. Please go ahead and run it a few times. It gives a better intuition for how these simulations work. If you know some Smalltalk, you should also read the code overview given on that page. The additional assumptions in the code, compared to the paper, are much better explained than for most other implementations."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-11T16:21:58.180029+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-11T16:24:07.459271+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TAxs2A7LDQC3HmbIAejbbQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The remaining pages provide a formalization of Schelling's model in Leibniz. It is not meant to be an implementation of the paper. It's rather what Schelling, or more likely Sakoda, would write today *instead of* the 1972 paper (although all the sociological background is missing here)."
 			}
 		]
 	},

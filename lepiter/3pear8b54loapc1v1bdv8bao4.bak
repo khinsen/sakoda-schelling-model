@@ -182,7 +182,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-10T18:02:26.708283+01:00"
+									"dateAndTimeString" : "2024-01-11T14:30:03.281477+01:00"
 								}
 							},
 							"uid" : {
@@ -192,7 +192,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "For the example of Schelling's Fig. 7, the neighborhood of the top-left corner is\n\t{{lzTerm:neighborhood(cell(1, 1)), withNormalForm = \"yes\", subcontext = \"example\"}}\nand the neighborhood of the bottom-right corner is\n\t{{lzTerm:neighborhood(cell(N, M)), withNormalForm = \"yes\", subcontext = \"example\"}}.\nA neighborhood of a cell on an edge contains five cells:\n\t{{lzTerm:length(neighborhood(cell(1, 5))), withNormalForm = \"yes\", subcontext = \"example\"}}\nand a cell in the middle of the territory has eight neighbors:\n\t{{lzTerm:length(neighborhood(cell(5, 6))), withNormalForm = \"yes\", subcontext = \"example\"}}."
+							"string" : "For the example of Schelling's Fig. 7, the neighborhood of the top left corner is\n\t{{lzTerm:neighborhood(cell(1, 1)), withNormalForm = \"yes\", subcontext = \"example\"}}\nand the neighborhood of the bottom-right corner is\n\t{{lzTerm:neighborhood(cell(N, M)), withNormalForm = \"yes\", subcontext = \"example\"}}.\nA neighborhood of a cell on an edge contains five cells:\n\t{{lzTerm:length(neighborhood(cell(1, 5))), withNormalForm = \"yes\", subcontext = \"example\"}}\nand a cell in the middle of the territory has eight neighbors:\n\t{{lzTerm:length(neighborhood(cell(5, 6))), withNormalForm = \"yes\", subcontext = \"example\"}}."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-11T11:48:52.915675+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-01-11T11:49:23.992743+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rL3IBwvLDQCuO3gTCuExAw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{lzTerm:2 < N, withNormalForm = \"yes\"}}"
 						}
 					]
 				},
