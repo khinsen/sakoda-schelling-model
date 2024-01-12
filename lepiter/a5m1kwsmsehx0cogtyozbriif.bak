@@ -130,6 +130,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-12T11:02:31.051505+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-12T11:02:31.051505+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yzrQfx7LDQCO3TtnAR766Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You can play with such a traditional implementation on the page [[A Pharo implementation of the Sakoda-Schelling model]]. Please go ahead and run it a few times. It gives a better intuition for how these simulations work."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-01-11T16:19:43.194364+01:00"
 					}
 				},
@@ -141,7 +178,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-11T16:21:51.768652+01:00"
+						"dateAndTimeString" : "2024-01-12T11:06:27.058788+01:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +188,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "You can play with such a traditional implementation on the page [[A Pharo implementation of the Sakoda-Schelling model]]. Please go ahead and run it a few times. It gives a better intuition for how these simulations work. If you know some Smalltalk, you should also read the code overview given on that page. The additional assumptions in the code, compared to the paper, are much better explained than for most other implementations."
+				"string" : "If you know some Smalltalk, you should also read the code overview given on that page. The additional assumptions in the code, compared to the paper, are much better explained than for most other implementations. And yet... the code makes one choice that is a bit dubious. A choice that introduces a bias that might be problematic - or not, I didn't really explore its consequences. Can you find that choice in the code? Hint: it's a choice made for the sake of a simple implementation."
 			},
 			{
 				"__type" : "textSnippet",
@@ -178,7 +215,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-11T16:24:07.459271+01:00"
+						"dateAndTimeString" : "2024-01-11T16:24:36.07658+01:00"
 					}
 				},
 				"uid" : {
@@ -188,7 +225,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The remaining pages provide a formalization of Schelling's model in Leibniz. It is not meant to be an implementation of the paper. It's rather what Schelling, or more likely Sakoda, would write today *instead of* the 1972 paper (although all the sociological background is missing here)."
+				"string" : "The remaining pages provide a formalization of Schelling's model in Leibniz. It is not meant to be an implementation of the paper. It's rather what Schelling, or more likely Sakoda the computational pioneer, would write today *instead of* the 1972 paper (although all the sociological background is missing here)."
 			}
 		]
 	},

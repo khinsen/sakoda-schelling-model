@@ -251,7 +251,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-11T16:16:17.423562+01:00"
+						"dateAndTimeString" : "2024-01-12T11:40:58.068262+01:00"
 					}
 				},
 				"uid" : {
@@ -261,7 +261,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Schelling writes: \"The rule of movement, then, is that an individual discontent with his own neighborhood moves to the nearest vacant spot that surrounds him with a neighborhood that meets his demands.\" (page 154/155)"
+				"string" : "Schelling writes: *The rule of movement, then, is that an individual discontent with his own neighborhood moves to the nearest vacant spot that surrounds him with a neighborhood that meets his demands.* (page 154/155)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -288,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-01-11T16:16:25.437422+01:00"
+						"dateAndTimeString" : "2024-01-12T11:52:24.284896+01:00"
 					}
 				},
 				"uid" : {
@@ -298,7 +298,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This leaves two cases that need to be addressed:\n 1. There is no suitable destination at all.\n 2. There are several equally near places that satisfy the agent's criteria."
+				"string" : "This leaves two cases that need to be addressed:\n 1. There is no suitable destination at all. This means there is no happiness at all for this agent at this point in time. We decide to leave the agent in its place, waiting for new opportunities during the next pass.\n 2. There are several equally near places that satisfy the agent's criteria. We then pick one of them at random."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-12T11:47:14.500499+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-01-12T11:47:14.500499+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "B2rCHx/LDQCYUiL9AR766Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},

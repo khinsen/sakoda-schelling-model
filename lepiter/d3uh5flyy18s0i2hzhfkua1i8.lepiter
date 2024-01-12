@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-01-11T16:04:04.673382+01:00"
+									"dateAndTimeString" : "2024-01-12T13:14:03.48215+01:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The [[Simulation]] and its [[Moves]]"
+							"string" : "The [[Simulation]], its [[Initial state]], and its [[Moves]]"
 						},
 						{
 							"__type" : "textSnippet",
