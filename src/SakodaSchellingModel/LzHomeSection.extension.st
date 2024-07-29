@@ -1,7 +1,7 @@
-Extension { #name : #LzGtHomeSection }
+Extension { #name : #LzHomeSection }
 
 { #category : #'*SakodaSchellingModel' }
-LzGtHomeSection >> sakodaSchellingModelCard [
+LzHomeSection >> sakodaSchellingModelCard [
 	^ self
 		newHeaderCardWithTitle: 'Sakoda-Schelling model'
 		description: 'A Leibniz formalization of the Sakoda-Schelling model for racial segregation'
