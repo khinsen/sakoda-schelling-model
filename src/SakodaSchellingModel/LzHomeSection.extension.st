@@ -6,6 +6,7 @@ LzHomeSection >> sakodaSchellingCard [
 	^ GtHomeCard lepiterBaseWithTableOfContents
 		title: 'Sakoda-Schelling model';
 		description: 'A well-known model from sociology, rewritten in Leibniz.';
+		priority: 10;
 		pageName: 'The Sakoda-Schelling model for racial segregation';
 		databaseName: BaselineOfSakodaSchellingModel
 						lepiterDatabase
